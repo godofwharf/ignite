@@ -72,7 +72,7 @@
                         <property name="addresses">
                             <list>
                                 <!-- In distributed environment, replace with actual host IP address. -->
-                                <value>127.0.0.1:8080</value>
+                                <value>$HOST:$PORT</value>
                             </list>
                         </property>
                     </bean>
